@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DB9CDB7982A4989899964B /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFE1D125C50CB9CCEBED5A2 /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework */; };
+		27278AD323A6325A00AF9A84 /* Empty-Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 27278AD223A6325A00AF9A84 /* Empty-Image.png */; };
+		275AE8EE23A693B3004D1A74 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275AE8ED23A693B3004D1A74 /* ViewModel.swift */; };
+		27984AFB23A568A6002DFE92 /* StorageImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27984AFA23A568A6002DFE92 /* StorageImageViewController.swift */; };
+		27984B0723A5719A002DFE92 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27984B0623A5719A002DFE92 /* Helpers.swift */; };
+		27C2C6A023A3C5D6008A1D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C69F23A3C5D6008A1D81 /* AppDelegate.swift */; };
+		27C2C6A223A3C5D6008A1D81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6A123A3C5D6008A1D81 /* SceneDelegate.swift */; };
+		27C2C6AA23A3C5D6008A1D81 /* TiLaAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6A823A3C5D6008A1D81 /* TiLaAssignment.xcdatamodeld */; };
+		27C2C6BA23A3C5D7008A1D81 /* TiLaAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6B923A3C5D7008A1D81 /* TiLaAssignmentTests.swift */; };
+		27C2C6C523A3C5D7008A1D81 /* TiLaAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6C423A3C5D7008A1D81 /* TiLaAssignmentUITests.swift */; };
+		27C2C6E723A3C63D008A1D81 /* AssignMent.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C2C6D523A3C63D008A1D81 /* AssignMent.png */; };
+		27C2C6E823A3C63D008A1D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6D723A3C63D008A1D81 /* ViewController.swift */; };
+		27C2C6E923A3C63D008A1D81 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6D823A3C63D008A1D81 /* TableViewCell.swift */; };
+		27C2C6EB23A3C63D008A1D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C2C6DB23A3C63D008A1D81 /* Assets.xcassets */; };
+		27C2C6EC23A3C63D008A1D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C2C6DC23A3C63D008A1D81 /* Main.storyboard */; };
+		27C2C6F023A3C63D008A1D81 /* GlobalVariableInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6E423A3C63D008A1D81 /* GlobalVariableInformation.swift */; };
+		27C2C6F223A3C6A8008A1D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C2C6F123A3C6A8008A1D81 /* LaunchScreen.storyboard */; };
+		27C2C6F623A3C838008A1D81 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6F323A3C838008A1D81 /* Source.swift */; };
+		27C2C6F723A3C838008A1D81 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6F423A3C838008A1D81 /* Articles.swift */; };
+		27C2C6F823A3C838008A1D81 /* ServiceResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2C6F523A3C838008A1D81 /* ServiceResponseModel.swift */; };
+		A8DFD18CFEF6D7067B9E60D8 /* Pods_TiLaAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252B357EFA7B191E0BEC9F21 /* Pods_TiLaAssignmentTests.framework */; };
+		F642B030ADF5F35FD82E36A1 /* Pods_TiLaAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E92FCD5B5BD0A9E72B4026 /* Pods_TiLaAssignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C2C6B623A3C5D7008A1D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C2C69423A3C5D6008A1D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C2C69B23A3C5D6008A1D81;
+			remoteInfo = TiLaAssignment;
+		};
+		27C2C6C123A3C5D7008A1D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C2C69423A3C5D6008A1D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C2C69B23A3C5D6008A1D81;
+			remoteInfo = TiLaAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230DA73B6E8A9F42D4F9676B /* Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		252B357EFA7B191E0BEC9F21 /* Pods_TiLaAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiLaAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27278AD223A6325A00AF9A84 /* Empty-Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empty-Image.png"; sourceTree = "<group>"; };
+		275AE8ED23A693B3004D1A74 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		27984AFA23A568A6002DFE92 /* StorageImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageImageViewController.swift; sourceTree = "<group>"; };
+		27984B0623A5719A002DFE92 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		27984B1223A58452002DFE92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27C2C69C23A3C5D6008A1D81 /* TiLaAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiLaAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C2C69F23A3C5D6008A1D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27C2C6A123A3C5D6008A1D81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27C2C6A923A3C5D6008A1D81 /* TiLaAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TiLaAssignment.xcdatamodel; sourceTree = "<group>"; };
+		27C2C6B023A3C5D7008A1D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C2C6B523A3C5D7008A1D81 /* TiLaAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiLaAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C2C6B923A3C5D7008A1D81 /* TiLaAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiLaAssignmentTests.swift; sourceTree = "<group>"; };
+		27C2C6BB23A3C5D7008A1D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C2C6C023A3C5D7008A1D81 /* TiLaAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiLaAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C2C6C423A3C5D7008A1D81 /* TiLaAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiLaAssignmentUITests.swift; sourceTree = "<group>"; };
+		27C2C6C623A3C5D7008A1D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C2C6D523A3C63D008A1D81 /* AssignMent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AssignMent.png; sourceTree = "<group>"; };
+		27C2C6D723A3C63D008A1D81 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27C2C6D823A3C63D008A1D81 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		27C2C6DB23A3C63D008A1D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C2C6E423A3C63D008A1D81 /* GlobalVariableInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariableInformation.swift; sourceTree = "<group>"; };
+		27C2C6F123A3C6A8008A1D81 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27C2C6F323A3C838008A1D81 /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		27C2C6F423A3C838008A1D81 /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		27C2C6F523A3C838008A1D81 /* ServiceResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceResponseModel.swift; sourceTree = "<group>"; };
+		3CFE1D125C50CB9CCEBED5A2 /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiLaAssignment_TiLaAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5379F0E2FC7C95E8E6E59127 /* Pods-TiLaAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiLaAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-TiLaAssignmentTests/Pods-TiLaAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86E92FCD5B5BD0A9E72B4026 /* Pods_TiLaAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiLaAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58157343E7AD380F08A530B /* Pods-TiLaAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiLaAssignment.release.xcconfig"; path = "Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		B0F7CADB7B48875A3F22E621 /* Pods-TiLaAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiLaAssignment.debug.xcconfig"; path = "Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		D82CF94CBD85657576B7715A /* Pods-TiLaAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiLaAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-TiLaAssignmentTests/Pods-TiLaAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD3B5F852725CF24EDC19F3F /* Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C2C69923A3C5D6008A1D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F642B030ADF5F35FD82E36A1 /* Pods_TiLaAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C2C6B223A3C5D7008A1D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DFD18CFEF6D7067B9E60D8 /* Pods_TiLaAssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C2C6BD23A3C5D7008A1D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DB9CDB7982A4989899964B /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275AE8EF23A69A51004D1A74 /* MainStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6DC23A3C63D008A1D81 /* Main.storyboard */,
+			);
+			path = MainStoryBoard;
+			sourceTree = "<group>";
+		};
+		275AE8F023A69A5F004D1A74 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6F123A3C6A8008A1D81 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		27984AEC23A5236E002DFE92 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				275AE8ED23A693B3004D1A74 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		27984AEE23A5236E002DFE92 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6D723A3C63D008A1D81 /* ViewController.swift */,
+				27C2C6D823A3C63D008A1D81 /* TableViewCell.swift */,
+				27984AFA23A568A6002DFE92 /* StorageImageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		27C2C69323A3C5D6008A1D81 = {
+			isa = PBXGroup;
+			children = (
+				27C2C69E23A3C5D6008A1D81 /* TiLaAssignment */,
+				27C2C6B823A3C5D7008A1D81 /* TiLaAssignmentTests */,
+				27C2C6C323A3C5D7008A1D81 /* TiLaAssignmentUITests */,
+				27C2C69D23A3C5D6008A1D81 /* Products */,
+				81DA924AE445344B02650DBB /* Pods */,
+				2971D33A6FDD836FB08F51B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27C2C69D23A3C5D6008A1D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C69C23A3C5D6008A1D81 /* TiLaAssignment.app */,
+				27C2C6B523A3C5D7008A1D81 /* TiLaAssignmentTests.xctest */,
+				27C2C6C023A3C5D7008A1D81 /* TiLaAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C2C69E23A3C5D6008A1D81 /* TiLaAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6B023A3C5D7008A1D81 /* Info.plist */,
+				27C2C6A823A3C5D6008A1D81 /* TiLaAssignment.xcdatamodeld */,
+				27C2C6D223A3C63D008A1D81 /* src */,
+			);
+			path = TiLaAssignment;
+			sourceTree = "<group>";
+		};
+		27C2C6B823A3C5D7008A1D81 /* TiLaAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6B923A3C5D7008A1D81 /* TiLaAssignmentTests.swift */,
+				27C2C6BB23A3C5D7008A1D81 /* Info.plist */,
+			);
+			path = TiLaAssignmentTests;
+			sourceTree = "<group>";
+		};
+		27C2C6C323A3C5D7008A1D81 /* TiLaAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6C423A3C5D7008A1D81 /* TiLaAssignmentUITests.swift */,
+				27C2C6C623A3C5D7008A1D81 /* Info.plist */,
+			);
+			path = TiLaAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		27C2C6D223A3C63D008A1D81 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				275AE8F023A69A5F004D1A74 /* LaunchScreen */,
+				275AE8EF23A69A51004D1A74 /* MainStoryBoard */,
+				27C2C6DA23A3C63D008A1D81 /* Resources */,
+				27C2C6D323A3C63D008A1D81 /* Images */,
+				27C2C6E523A3C63D008A1D81 /* Helpers */,
+				27C2C6E323A3C63D008A1D81 /* GlobalVariable */,
+				27C2C6DF23A3C63D008A1D81 /* Models */,
+				27984AEC23A5236E002DFE92 /* ViewModel */,
+				27984AEE23A5236E002DFE92 /* ViewController */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		27C2C6D323A3C63D008A1D81 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27278AD223A6325A00AF9A84 /* Empty-Image.png */,
+				27C2C6D523A3C63D008A1D81 /* AssignMent.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		27C2C6DA23A3C63D008A1D81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6A123A3C5D6008A1D81 /* SceneDelegate.swift */,
+				27C2C69F23A3C5D6008A1D81 /* AppDelegate.swift */,
+				27C2C6DB23A3C63D008A1D81 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		27C2C6DF23A3C63D008A1D81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6E023A3C63D008A1D81 /* ServiceResponse */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27C2C6E023A3C63D008A1D81 /* ServiceResponse */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6F523A3C838008A1D81 /* ServiceResponseModel.swift */,
+				27C2C6F423A3C838008A1D81 /* Articles.swift */,
+				27C2C6F323A3C838008A1D81 /* Source.swift */,
+			);
+			path = ServiceResponse;
+			sourceTree = "<group>";
+		};
+		27C2C6E323A3C63D008A1D81 /* GlobalVariable */ = {
+			isa = PBXGroup;
+			children = (
+				27C2C6E423A3C63D008A1D81 /* GlobalVariableInformation.swift */,
+			);
+			path = GlobalVariable;
+			sourceTree = "<group>";
+		};
+		27C2C6E523A3C63D008A1D81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27984B0623A5719A002DFE92 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2971D33A6FDD836FB08F51B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86E92FCD5B5BD0A9E72B4026 /* Pods_TiLaAssignment.framework */,
+				3CFE1D125C50CB9CCEBED5A2 /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework */,
+				252B357EFA7B191E0BEC9F21 /* Pods_TiLaAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81DA924AE445344B02650DBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0F7CADB7B48875A3F22E621 /* Pods-TiLaAssignment.debug.xcconfig */,
+				A58157343E7AD380F08A530B /* Pods-TiLaAssignment.release.xcconfig */,
+				DD3B5F852725CF24EDC19F3F /* Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig */,
+				230DA73B6E8A9F42D4F9676B /* Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig */,
+				5379F0E2FC7C95E8E6E59127 /* Pods-TiLaAssignmentTests.debug.xcconfig */,
+				D82CF94CBD85657576B7715A /* Pods-TiLaAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C2C69B23A3C5D6008A1D81 /* TiLaAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C2C6C923A3C5D7008A1D81 /* Build configuration list for PBXNativeTarget "TiLaAssignment" */;
+			buildPhases = (
+				CE1B02B69A19BA6A89C09F7D /* [CP] Check Pods Manifest.lock */,
+				27C2C69823A3C5D6008A1D81 /* Sources */,
+				27C2C69923A3C5D6008A1D81 /* Frameworks */,
+				27C2C69A23A3C5D6008A1D81 /* Resources */,
+				57FEA172D42E76CA4E5BA489 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiLaAssignment;
+			productName = TiLaAssignment;
+			productReference = 27C2C69C23A3C5D6008A1D81 /* TiLaAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C2C6B423A3C5D7008A1D81 /* TiLaAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C2C6CC23A3C5D7008A1D81 /* Build configuration list for PBXNativeTarget "TiLaAssignmentTests" */;
+			buildPhases = (
+				8EA15031A576AA420BC88F23 /* [CP] Check Pods Manifest.lock */,
+				27C2C6B123A3C5D7008A1D81 /* Sources */,
+				27C2C6B223A3C5D7008A1D81 /* Frameworks */,
+				27C2C6B323A3C5D7008A1D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C2C6B723A3C5D7008A1D81 /* PBXTargetDependency */,
+			);
+			name = TiLaAssignmentTests;
+			productName = TiLaAssignmentTests;
+			productReference = 27C2C6B523A3C5D7008A1D81 /* TiLaAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27C2C6BF23A3C5D7008A1D81 /* TiLaAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C2C6CF23A3C5D7008A1D81 /* Build configuration list for PBXNativeTarget "TiLaAssignmentUITests" */;
+			buildPhases = (
+				79DBCC3B7DEE45EB09FBE64C /* [CP] Check Pods Manifest.lock */,
+				27C2C6BC23A3C5D7008A1D81 /* Sources */,
+				27C2C6BD23A3C5D7008A1D81 /* Frameworks */,
+				27C2C6BE23A3C5D7008A1D81 /* Resources */,
+				DE20F74C4A8C58C85EBC99D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C2C6C223A3C5D7008A1D81 /* PBXTargetDependency */,
+			);
+			name = TiLaAssignmentUITests;
+			productName = TiLaAssignmentUITests;
+			productReference = 27C2C6C023A3C5D7008A1D81 /* TiLaAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C2C69423A3C5D6008A1D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Gudisi, Manjunath";
+				TargetAttributes = {
+					27C2C69B23A3C5D6008A1D81 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					27C2C6B423A3C5D7008A1D81 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 27C2C69B23A3C5D6008A1D81;
+					};
+					27C2C6BF23A3C5D7008A1D81 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 27C2C69B23A3C5D6008A1D81;
+					};
+				};
+			};
+			buildConfigurationList = 27C2C69723A3C5D6008A1D81 /* Build configuration list for PBXProject "TiLaAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 27C2C69323A3C5D6008A1D81;
+			productRefGroup = 27C2C69D23A3C5D6008A1D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C2C69B23A3C5D6008A1D81 /* TiLaAssignment */,
+				27C2C6B423A3C5D7008A1D81 /* TiLaAssignmentTests */,
+				27C2C6BF23A3C5D7008A1D81 /* TiLaAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C2C69A23A3C5D6008A1D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C2C6EC23A3C63D008A1D81 /* Main.storyboard in Resources */,
+				27278AD323A6325A00AF9A84 /* Empty-Image.png in Resources */,
+				27C2C6E723A3C63D008A1D81 /* AssignMent.png in Resources */,
+				27C2C6F223A3C6A8008A1D81 /* LaunchScreen.storyboard in Resources */,
+				27C2C6EB23A3C63D008A1D81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C2C6B323A3C5D7008A1D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C2C6BE23A3C5D7008A1D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57FEA172D42E76CA4E5BA489 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79DBCC3B7DEE45EB09FBE64C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiLaAssignment-TiLaAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA15031A576AA420BC88F23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiLaAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1B02B69A19BA6A89C09F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiLaAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE20F74C4A8C58C85EBC99D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C2C69823A3C5D6008A1D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C2C6F723A3C838008A1D81 /* Articles.swift in Sources */,
+				27C2C6E823A3C63D008A1D81 /* ViewController.swift in Sources */,
+				27C2C6F023A3C63D008A1D81 /* GlobalVariableInformation.swift in Sources */,
+				27C2C6A023A3C5D6008A1D81 /* AppDelegate.swift in Sources */,
+				27984AFB23A568A6002DFE92 /* StorageImageViewController.swift in Sources */,
+				27C2C6F623A3C838008A1D81 /* Source.swift in Sources */,
+				275AE8EE23A693B3004D1A74 /* ViewModel.swift in Sources */,
+				27C2C6E923A3C63D008A1D81 /* TableViewCell.swift in Sources */,
+				27C2C6F823A3C838008A1D81 /* ServiceResponseModel.swift in Sources */,
+				27C2C6AA23A3C5D6008A1D81 /* TiLaAssignment.xcdatamodeld in Sources */,
+				27984B0723A5719A002DFE92 /* Helpers.swift in Sources */,
+				27C2C6A223A3C5D6008A1D81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C2C6B123A3C5D7008A1D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C2C6BA23A3C5D7008A1D81 /* TiLaAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C2C6BC23A3C5D7008A1D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C2C6C523A3C5D7008A1D81 /* TiLaAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C2C6B723A3C5D7008A1D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C2C69B23A3C5D6008A1D81 /* TiLaAssignment */;
+			targetProxy = 27C2C6B623A3C5D7008A1D81 /* PBXContainerItemProxy */;
+		};
+		27C2C6C223A3C5D7008A1D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C2C69B23A3C5D6008A1D81 /* TiLaAssignment */;
+			targetProxy = 27C2C6C123A3C5D7008A1D81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27C2C6DC23A3C63D008A1D81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27984B1223A58452002DFE92 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C2C6C723A3C5D7008A1D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		27C2C6C823A3C5D7008A1D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C2C6CA23A3C5D7008A1D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F7CADB7B48875A3F22E621 /* Pods-TiLaAssignment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = TiLaAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.TiLaAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C2C6CB23A3C5D7008A1D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58157343E7AD380F08A530B /* Pods-TiLaAssignment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = TiLaAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.TiLaAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27C2C6CD23A3C5D7008A1D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5379F0E2FC7C95E8E6E59127 /* Pods-TiLaAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = TiLaAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.TiLaAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiLaAssignment.app/TiLaAssignment";
+			};
+			name = Debug;
+		};
+		27C2C6CE23A3C5D7008A1D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82CF94CBD85657576B7715A /* Pods-TiLaAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = TiLaAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.TiLaAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiLaAssignment.app/TiLaAssignment";
+			};
+			name = Release;
+		};
+		27C2C6D023A3C5D7008A1D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3B5F852725CF24EDC19F3F /* Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = TiLaAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.TiLaAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiLaAssignment;
+			};
+			name = Debug;
+		};
+		27C2C6D123A3C5D7008A1D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230DA73B6E8A9F42D4F9676B /* Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = TiLaAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.TiLaAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TiLaAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C2C69723A3C5D6008A1D81 /* Build configuration list for PBXProject "TiLaAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C2C6C723A3C5D7008A1D81 /* Debug */,
+				27C2C6C823A3C5D7008A1D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C2C6C923A3C5D7008A1D81 /* Build configuration list for PBXNativeTarget "TiLaAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C2C6CA23A3C5D7008A1D81 /* Debug */,
+				27C2C6CB23A3C5D7008A1D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C2C6CC23A3C5D7008A1D81 /* Build configuration list for PBXNativeTarget "TiLaAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C2C6CD23A3C5D7008A1D81 /* Debug */,
+				27C2C6CE23A3C5D7008A1D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C2C6CF23A3C5D7008A1D81 /* Build configuration list for PBXNativeTarget "TiLaAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C2C6D023A3C5D7008A1D81 /* Debug */,
+				27C2C6D123A3C5D7008A1D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27C2C6A823A3C5D6008A1D81 /* TiLaAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27C2C6A923A3C5D6008A1D81 /* TiLaAssignment.xcdatamodel */,
+			);
+			currentVersion = 27C2C6A923A3C5D6008A1D81 /* TiLaAssignment.xcdatamodel */;
+			path = TiLaAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27C2C69423A3C5D6008A1D81 /* Project object */;
+}

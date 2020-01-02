@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01121D1FC673180167C53B91CFE0CD7E /* SwiftGoogleTranslate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C786495D1FDEEB61300FDE408F78 /* SwiftGoogleTranslate-dummy.m */; };
+		0C420054DD02D7902E55D38CDD5D7EA3 /* SwiftGoogleTranslate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB2924AD9C9F7007A8F1775A2231F9E /* SwiftGoogleTranslate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19F9BA63536357CF0E359A0E77C71334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1CB7468C22AF760399ADD2370FB2B724 /* Pods-TiLaAssignment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B65A93DB4AD48E431BF71301100FC1 /* Pods-TiLaAssignment-dummy.m */; };
+		36B8E849062C9FCB1C0434582CC347C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		49BC6BCC7BA69E26AA2869B2BE73DBE3 /* Pods-TiLaAssignment-TiLaAssignmentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BB4C2B88D8B68EF5D1798BD3DCE706 /* Pods-TiLaAssignment-TiLaAssignmentUITests-dummy.m */; };
+		4D3DDE15F04DA7637445F9283F0AB641 /* Pods-TiLaAssignment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C91CF4D36ECBD4BD1A9CA1EE9F82606D /* Pods-TiLaAssignment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6796BC80B0F74D22A751E67002153676 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7CCC39E70FD36A129E6D174A7814B9EA /* Pods-TiLaAssignment-TiLaAssignmentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9FABFD2449B656442DB56567B5C9D0 /* Pods-TiLaAssignment-TiLaAssignmentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F52F10204C3F0F0EE77072647191250 /* SwiftGoogleTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAD08079EAD6325D56D5E998F62548 /* SwiftGoogleTranslate.swift */; };
+		A441D0A148FFCCAA6CAC1156A50893F2 /* Pods-TiLaAssignmentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF11E7A9F5BEF3F4289C72E2EEC6ED9 /* Pods-TiLaAssignmentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D54BF9750A14B1B0E97566055C4D1C /* Pods-TiLaAssignmentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F47775211457F846359035920BDDF2D /* Pods-TiLaAssignmentTests-dummy.m */; };
+		CE3943EC9B4F64BC50210389AD295BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B62622E47FC589A0189397B7CAE0836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDEC8A4DA7B5EB8EBE537B9C369D098;
+			remoteInfo = SwiftGoogleTranslate;
+		};
+		5D66D1087D03D58694A569D9C98EAD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDEC8A4DA7B5EB8EBE537B9C369D098;
+			remoteInfo = SwiftGoogleTranslate;
+		};
+		676403F67D802F5860A6D6362EC9C425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FFDFF7C12F37BE244CB3C54C93647A;
+			remoteInfo = "Pods-TiLaAssignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04239FBAD51C44447DBAD0A56CC49099 /* Pods-TiLaAssignmentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TiLaAssignmentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0921456166C94DCA5D441DBEDA2A1011 /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TiLaAssignment_TiLaAssignmentUITests.framework; path = "Pods-TiLaAssignment-TiLaAssignmentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DBED9BA64432726F3C1966576788FA /* SwiftGoogleTranslate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGoogleTranslate-prefix.pch"; sourceTree = "<group>"; };
+		0D8EBD1DD4B999959573C6685CF13564 /* Pods-TiLaAssignment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TiLaAssignment.modulemap"; sourceTree = "<group>"; };
+		13EDD679D9D5A12AAB6088E6D6B9141A /* Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19BB4C2B88D8B68EF5D1798BD3DCE706 /* Pods-TiLaAssignment-TiLaAssignmentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TiLaAssignment-TiLaAssignmentUITests-dummy.m"; sourceTree = "<group>"; };
+		1F47775211457F846359035920BDDF2D /* Pods-TiLaAssignmentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TiLaAssignmentTests-dummy.m"; sourceTree = "<group>"; };
+		2AEDDDEB0292FFA2CECB9B2E47D26348 /* Pods-TiLaAssignment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TiLaAssignment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CB2924AD9C9F7007A8F1775A2231F9E /* SwiftGoogleTranslate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGoogleTranslate-umbrella.h"; sourceTree = "<group>"; };
+		2EFD714B38EC150B6B80627F78B29F92 /* Pods-TiLaAssignment-TiLaAssignmentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TiLaAssignment-TiLaAssignmentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		357CBD3BBB159B17F2AE214325F7001C /* Pods-TiLaAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiLaAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		35F7E96B88CE37945578F7C145178BEC /* Pods-TiLaAssignmentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TiLaAssignmentTests.modulemap"; sourceTree = "<group>"; };
+		40EE5F8D6C96E4AE700B4E07449EDBF8 /* SwiftGoogleTranslate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGoogleTranslate.framework; path = SwiftGoogleTranslate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582136CEA7D35EB40789074F0DB1DD1D /* Pods-TiLaAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiLaAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D7A53E099B913FB2E5BE439BEFD6CE8 /* SwiftGoogleTranslate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftGoogleTranslate-Info.plist"; sourceTree = "<group>"; };
+		6304E49EE042FD91450DBF81B377E505 /* SwiftGoogleTranslate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGoogleTranslate.xcconfig; sourceTree = "<group>"; };
+		66113E542BD751B69579EA437E55C4E9 /* Pods-TiLaAssignmentTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiLaAssignmentTests-Info.plist"; sourceTree = "<group>"; };
+		6BA21E148A9A313026A325C3764A3BF2 /* Pods-TiLaAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiLaAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		6FF11E7A9F5BEF3F4289C72E2EEC6ED9 /* Pods-TiLaAssignmentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TiLaAssignmentTests-umbrella.h"; sourceTree = "<group>"; };
+		71BAD08079EAD6325D56D5E998F62548 /* SwiftGoogleTranslate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftGoogleTranslate.swift; path = SwiftGoogleTranslate/Sources/SwiftGoogleTranslate.swift; sourceTree = "<group>"; };
+		745BD8C9D14EFF47C0801E7C4CA980D4 /* Pods-TiLaAssignment-TiLaAssignmentUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiLaAssignment-TiLaAssignmentUITests-Info.plist"; sourceTree = "<group>"; };
+		7CF89E1A5283C3808E0CB9454FE81AFA /* Pods-TiLaAssignment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiLaAssignment-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D478E71C770A1F14AD9138FD2FCD810 /* Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		803B2F2790AC98324C17536CB0652B62 /* Pods-TiLaAssignment-TiLaAssignmentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiLaAssignment-TiLaAssignmentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CCF5021192E7035BFEE456F9C1B349C /* Pods-TiLaAssignment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiLaAssignment-frameworks.sh"; sourceTree = "<group>"; };
+		97B65A93DB4AD48E431BF71301100FC1 /* Pods-TiLaAssignment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TiLaAssignment-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F71FC9DAB01E99B87ED1B3219E13978 /* Pods-TiLaAssignmentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiLaAssignmentTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6C650E595B6A94C80817F4A88F4203B /* Pods-TiLaAssignment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiLaAssignment-Info.plist"; sourceTree = "<group>"; };
+		B7448487727421A55B98CE0DC4D98C8B /* Pods-TiLaAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiLaAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		B91CA0C2BD6B5F437ABC0D866CE1F65B /* Pods_TiLaAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TiLaAssignmentTests.framework; path = "Pods-TiLaAssignmentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA2E6CDD1EA0845282D3143925E7722 /* Pods-TiLaAssignment-TiLaAssignmentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TiLaAssignment-TiLaAssignmentUITests.modulemap"; sourceTree = "<group>"; };
+		BE9E7290F13D75D449ABF33872EC1110 /* Pods-TiLaAssignment-TiLaAssignmentUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiLaAssignment-TiLaAssignmentUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C91CF4D36ECBD4BD1A9CA1EE9F82606D /* Pods-TiLaAssignment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TiLaAssignment-umbrella.h"; sourceTree = "<group>"; };
+		DA9FABFD2449B656442DB56567B5C9D0 /* Pods-TiLaAssignment-TiLaAssignmentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TiLaAssignment-TiLaAssignmentUITests-umbrella.h"; sourceTree = "<group>"; };
+		EFB88F384717139C38FB107995FA3DFD /* Pods_TiLaAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TiLaAssignment.framework; path = "Pods-TiLaAssignment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A15AC22E5BDF956542DF3BDC1549DA /* SwiftGoogleTranslate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftGoogleTranslate.modulemap; sourceTree = "<group>"; };
+		FFF9C786495D1FDEEB61300FDE408F78 /* SwiftGoogleTranslate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGoogleTranslate-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E97130E5B6601DFFD1123DF706344F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8E849062C9FCB1C0434582CC347C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		326CF2A726D5BF8C42329CA057E21F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F9BA63536357CF0E359A0E77C71334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDE4D197618D58EF8D366714F7B2DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3943EC9B4F64BC50210389AD295BCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12E534939EC6CD9B9474EE6EA884394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6796BC80B0F74D22A751E67002153676 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F85148E53AD5419F415F970D04B2D1F /* Pods-TiLaAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				35F7E96B88CE37945578F7C145178BEC /* Pods-TiLaAssignmentTests.modulemap */,
+				04239FBAD51C44447DBAD0A56CC49099 /* Pods-TiLaAssignmentTests-acknowledgements.markdown */,
+				9F71FC9DAB01E99B87ED1B3219E13978 /* Pods-TiLaAssignmentTests-acknowledgements.plist */,
+				1F47775211457F846359035920BDDF2D /* Pods-TiLaAssignmentTests-dummy.m */,
+				66113E542BD751B69579EA437E55C4E9 /* Pods-TiLaAssignmentTests-Info.plist */,
+				6FF11E7A9F5BEF3F4289C72E2EEC6ED9 /* Pods-TiLaAssignmentTests-umbrella.h */,
+				582136CEA7D35EB40789074F0DB1DD1D /* Pods-TiLaAssignmentTests.debug.xcconfig */,
+				357CBD3BBB159B17F2AE214325F7001C /* Pods-TiLaAssignmentTests.release.xcconfig */,
+			);
+			name = "Pods-TiLaAssignmentTests";
+			path = "Target Support Files/Pods-TiLaAssignmentTests";
+			sourceTree = "<group>";
+		};
+		9D87B04CF5293E838E9475C5AD6AAA65 /* Pods-TiLaAssignment-TiLaAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA2E6CDD1EA0845282D3143925E7722 /* Pods-TiLaAssignment-TiLaAssignmentUITests.modulemap */,
+				2EFD714B38EC150B6B80627F78B29F92 /* Pods-TiLaAssignment-TiLaAssignmentUITests-acknowledgements.markdown */,
+				803B2F2790AC98324C17536CB0652B62 /* Pods-TiLaAssignment-TiLaAssignmentUITests-acknowledgements.plist */,
+				19BB4C2B88D8B68EF5D1798BD3DCE706 /* Pods-TiLaAssignment-TiLaAssignmentUITests-dummy.m */,
+				BE9E7290F13D75D449ABF33872EC1110 /* Pods-TiLaAssignment-TiLaAssignmentUITests-frameworks.sh */,
+				745BD8C9D14EFF47C0801E7C4CA980D4 /* Pods-TiLaAssignment-TiLaAssignmentUITests-Info.plist */,
+				DA9FABFD2449B656442DB56567B5C9D0 /* Pods-TiLaAssignment-TiLaAssignmentUITests-umbrella.h */,
+				7D478E71C770A1F14AD9138FD2FCD810 /* Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig */,
+				13EDD679D9D5A12AAB6088E6D6B9141A /* Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig */,
+			);
+			name = "Pods-TiLaAssignment-TiLaAssignmentUITests";
+			path = "Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests";
+			sourceTree = "<group>";
+		};
+		BB9640A09896732E51AB3911B0BED77E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB88F384717139C38FB107995FA3DFD /* Pods_TiLaAssignment.framework */,
+				0921456166C94DCA5D441DBEDA2A1011 /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework */,
+				B91CA0C2BD6B5F437ABC0D866CE1F65B /* Pods_TiLaAssignmentTests.framework */,
+				40EE5F8D6C96E4AE700B4E07449EDBF8 /* SwiftGoogleTranslate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5E8687E83E2E6E03569683CD00CABE /* SwiftGoogleTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				71BAD08079EAD6325D56D5E998F62548 /* SwiftGoogleTranslate.swift */,
+				FA241FF26BED165740F0EBB3A3024244 /* Support Files */,
+			);
+			name = SwiftGoogleTranslate;
+			path = SwiftGoogleTranslate;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE809C5DF829B52E75F426FEF07CA6FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF5E8687E83E2E6E03569683CD00CABE /* SwiftGoogleTranslate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CE809C5DF829B52E75F426FEF07CA6FC /* Pods */,
+				BB9640A09896732E51AB3911B0BED77E /* Products */,
+				FFC1D4D3850A54B2800EB23CBDC1AE64 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B1E06DFAA7B6BBF0DF19EE6C3F9275 /* Pods-TiLaAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EBD1DD4B999959573C6685CF13564 /* Pods-TiLaAssignment.modulemap */,
+				2AEDDDEB0292FFA2CECB9B2E47D26348 /* Pods-TiLaAssignment-acknowledgements.markdown */,
+				7CF89E1A5283C3808E0CB9454FE81AFA /* Pods-TiLaAssignment-acknowledgements.plist */,
+				97B65A93DB4AD48E431BF71301100FC1 /* Pods-TiLaAssignment-dummy.m */,
+				8CCF5021192E7035BFEE456F9C1B349C /* Pods-TiLaAssignment-frameworks.sh */,
+				B6C650E595B6A94C80817F4A88F4203B /* Pods-TiLaAssignment-Info.plist */,
+				C91CF4D36ECBD4BD1A9CA1EE9F82606D /* Pods-TiLaAssignment-umbrella.h */,
+				B7448487727421A55B98CE0DC4D98C8B /* Pods-TiLaAssignment.debug.xcconfig */,
+				6BA21E148A9A313026A325C3764A3BF2 /* Pods-TiLaAssignment.release.xcconfig */,
+			);
+			name = "Pods-TiLaAssignment";
+			path = "Target Support Files/Pods-TiLaAssignment";
+			sourceTree = "<group>";
+		};
+		FA241FF26BED165740F0EBB3A3024244 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A15AC22E5BDF956542DF3BDC1549DA /* SwiftGoogleTranslate.modulemap */,
+				6304E49EE042FD91450DBF81B377E505 /* SwiftGoogleTranslate.xcconfig */,
+				FFF9C786495D1FDEEB61300FDE408F78 /* SwiftGoogleTranslate-dummy.m */,
+				5D7A53E099B913FB2E5BE439BEFD6CE8 /* SwiftGoogleTranslate-Info.plist */,
+				09DBED9BA64432726F3C1966576788FA /* SwiftGoogleTranslate-prefix.pch */,
+				2CB2924AD9C9F7007A8F1775A2231F9E /* SwiftGoogleTranslate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGoogleTranslate";
+			sourceTree = "<group>";
+		};
+		FFC1D4D3850A54B2800EB23CBDC1AE64 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1E06DFAA7B6BBF0DF19EE6C3F9275 /* Pods-TiLaAssignment */,
+				9D87B04CF5293E838E9475C5AD6AAA65 /* Pods-TiLaAssignment-TiLaAssignmentUITests */,
+				8F85148E53AD5419F415F970D04B2D1F /* Pods-TiLaAssignmentTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0235F1608774F571A2FEA723782E4540 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3DDE15F04DA7637445F9283F0AB641 /* Pods-TiLaAssignment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52404A004FA6E4E9951751EAB5699708 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCC39E70FD36A129E6D174A7814B9EA /* Pods-TiLaAssignment-TiLaAssignmentUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916A24FBF9330E7625F127FC9FC1495C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C420054DD02D7902E55D38CDD5D7EA3 /* SwiftGoogleTranslate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02231EAB2B778453487C67AAF2E51F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A441D0A148FFCCAA6CAC1156A50893F2 /* Pods-TiLaAssignmentTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41FFDFF7C12F37BE244CB3C54C93647A /* Pods-TiLaAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98599AC4AAB3D35EBB43354EF2C2CD8A /* Build configuration list for PBXNativeTarget "Pods-TiLaAssignment" */;
+			buildPhases = (
+				0235F1608774F571A2FEA723782E4540 /* Headers */,
+				6A659E20E596188268B3CABE6CFE791A /* Sources */,
+				1E97130E5B6601DFFD1123DF706344F0 /* Frameworks */,
+				A7B118E6921068DAC18A52D0052FAD52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594AFDD6933862DF0AF4C2828BF1025B /* PBXTargetDependency */,
+			);
+			name = "Pods-TiLaAssignment";
+			productName = "Pods-TiLaAssignment";
+			productReference = EFB88F384717139C38FB107995FA3DFD /* Pods_TiLaAssignment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67DFEB1DA2AF2087CCC8D72F262C1FB2 /* Pods-TiLaAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66DEA5CE58963558312120263D274A8 /* Build configuration list for PBXNativeTarget "Pods-TiLaAssignmentTests" */;
+			buildPhases = (
+				F02231EAB2B778453487C67AAF2E51F8 /* Headers */,
+				9E8AB244CC55E4FDBA5F4F1BAC109959 /* Sources */,
+				E12E534939EC6CD9B9474EE6EA884394 /* Frameworks */,
+				960F11E2AB9771A49FF2BE1B23F37125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31D6A14367AAD3F72CEBD6F74A03E24 /* PBXTargetDependency */,
+			);
+			name = "Pods-TiLaAssignmentTests";
+			productName = "Pods-TiLaAssignmentTests";
+			productReference = B91CA0C2BD6B5F437ABC0D866CE1F65B /* Pods_TiLaAssignmentTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A250AD9014337E0BF3D3890245D09E7 /* Pods-TiLaAssignment-TiLaAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C234AADFAE7CAA2ABEC9F43D4FBBC3F /* Build configuration list for PBXNativeTarget "Pods-TiLaAssignment-TiLaAssignmentUITests" */;
+			buildPhases = (
+				52404A004FA6E4E9951751EAB5699708 /* Headers */,
+				03E33C244B253EAB161BF656B919529F /* Sources */,
+				DDDE4D197618D58EF8D366714F7B2DE5 /* Frameworks */,
+				38ED9036F2E4E2C2FCFC3833BF78C71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				027CE408D49C0530CE3D350FE4953498 /* PBXTargetDependency */,
+			);
+			name = "Pods-TiLaAssignment-TiLaAssignmentUITests";
+			productName = "Pods-TiLaAssignment-TiLaAssignmentUITests";
+			productReference = 0921456166C94DCA5D441DBEDA2A1011 /* Pods_TiLaAssignment_TiLaAssignmentUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBDEC8A4DA7B5EB8EBE537B9C369D098 /* SwiftGoogleTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4271E823D627E5992250748369DAF9 /* Build configuration list for PBXNativeTarget "SwiftGoogleTranslate" */;
+			buildPhases = (
+				916A24FBF9330E7625F127FC9FC1495C /* Headers */,
+				A615DAB9EEA17E3F701D694EFA9D4988 /* Sources */,
+				326CF2A726D5BF8C42329CA057E21F4D /* Frameworks */,
+				5E46B038280BE501D424FCFEE9626211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGoogleTranslate;
+			productName = SwiftGoogleTranslate;
+			productReference = 40EE5F8D6C96E4AE700B4E07449EDBF8 /* SwiftGoogleTranslate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BB9640A09896732E51AB3911B0BED77E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FFDFF7C12F37BE244CB3C54C93647A /* Pods-TiLaAssignment */,
+				6A250AD9014337E0BF3D3890245D09E7 /* Pods-TiLaAssignment-TiLaAssignmentUITests */,
+				67DFEB1DA2AF2087CCC8D72F262C1FB2 /* Pods-TiLaAssignmentTests */,
+				CBDEC8A4DA7B5EB8EBE537B9C369D098 /* SwiftGoogleTranslate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38ED9036F2E4E2C2FCFC3833BF78C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E46B038280BE501D424FCFEE9626211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960F11E2AB9771A49FF2BE1B23F37125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B118E6921068DAC18A52D0052FAD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E33C244B253EAB161BF656B919529F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BC6BCC7BA69E26AA2869B2BE73DBE3 /* Pods-TiLaAssignment-TiLaAssignmentUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A659E20E596188268B3CABE6CFE791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB7468C22AF760399ADD2370FB2B724 /* Pods-TiLaAssignment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8AB244CC55E4FDBA5F4F1BAC109959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D54BF9750A14B1B0E97566055C4D1C /* Pods-TiLaAssignmentTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A615DAB9EEA17E3F701D694EFA9D4988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01121D1FC673180167C53B91CFE0CD7E /* SwiftGoogleTranslate-dummy.m in Sources */,
+				7F52F10204C3F0F0EE77072647191250 /* SwiftGoogleTranslate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		027CE408D49C0530CE3D350FE4953498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGoogleTranslate;
+			target = CBDEC8A4DA7B5EB8EBE537B9C369D098 /* SwiftGoogleTranslate */;
+			targetProxy = 5D66D1087D03D58694A569D9C98EAD3F /* PBXContainerItemProxy */;
+		};
+		594AFDD6933862DF0AF4C2828BF1025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGoogleTranslate;
+			target = CBDEC8A4DA7B5EB8EBE537B9C369D098 /* SwiftGoogleTranslate */;
+			targetProxy = 5B62622E47FC589A0189397B7CAE0836 /* PBXContainerItemProxy */;
+		};
+		E31D6A14367AAD3F72CEBD6F74A03E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TiLaAssignment";
+			target = 41FFDFF7C12F37BE244CB3C54C93647A /* Pods-TiLaAssignment */;
+			targetProxy = 676403F67D802F5860A6D6362EC9C425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		165A1FAC57B511C787F352A4B4D60AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA21E148A9A313026A325C3764A3BF2 /* Pods-TiLaAssignment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		304CB78B1CF971E83DB9BD289725DF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357CBD3BBB159B17F2AE214325F7001C /* Pods-TiLaAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiLaAssignmentTests/Pods-TiLaAssignmentTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiLaAssignmentTests/Pods-TiLaAssignmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45C1CD0A7129E22EF6C89560D87122F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7448487727421A55B98CE0DC4D98C8B /* Pods-TiLaAssignment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiLaAssignment/Pods-TiLaAssignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D94F837DCAF0A1A358F55A11E63622D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D478E71C770A1F14AD9138FD2FCD810 /* Pods-TiLaAssignment-TiLaAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7452CEFF24861A10A7A4654D6A08624E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582136CEA7D35EB40789074F0DB1DD1D /* Pods-TiLaAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiLaAssignmentTests/Pods-TiLaAssignmentTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiLaAssignmentTests/Pods-TiLaAssignmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97C078B19B0E842E153F414ACFA28B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6304E49EE042FD91450DBF81B377E505 /* SwiftGoogleTranslate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGoogleTranslate;
+				PRODUCT_NAME = SwiftGoogleTranslate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B75D13E75560D930CD0A852DBB113DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6304E49EE042FD91450DBF81B377E505 /* SwiftGoogleTranslate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftGoogleTranslate/SwiftGoogleTranslate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGoogleTranslate;
+				PRODUCT_NAME = SwiftGoogleTranslate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3BA1F7F5F37CD0FB606552D9DDD71B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EDD679D9D5A12AAB6088E6D6B9141A /* Pods-TiLaAssignment-TiLaAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiLaAssignment-TiLaAssignmentUITests/Pods-TiLaAssignment-TiLaAssignmentUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C234AADFAE7CAA2ABEC9F43D4FBBC3F /* Build configuration list for PBXNativeTarget "Pods-TiLaAssignment-TiLaAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D94F837DCAF0A1A358F55A11E63622D /* Debug */,
+				F3BA1F7F5F37CD0FB606552D9DDD71B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4271E823D627E5992250748369DAF9 /* Build configuration list for PBXNativeTarget "SwiftGoogleTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C078B19B0E842E153F414ACFA28B4B /* Debug */,
+				B75D13E75560D930CD0A852DBB113DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98599AC4AAB3D35EBB43354EF2C2CD8A /* Build configuration list for PBXNativeTarget "Pods-TiLaAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C1CD0A7129E22EF6C89560D87122F3 /* Debug */,
+				165A1FAC57B511C787F352A4B4D60AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66DEA5CE58963558312120263D274A8 /* Build configuration list for PBXNativeTarget "Pods-TiLaAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7452CEFF24861A10A7A4654D6A08624E /* Debug */,
+				304CB78B1CF971E83DB9BD289725DF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

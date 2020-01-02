@@ -1,0 +1,6 @@
+framework module SwiftGoogleTranslate {
+  umbrella header "SwiftGoogleTranslate-umbrella.h"
+
+  export *
+  module * { export * }
+}

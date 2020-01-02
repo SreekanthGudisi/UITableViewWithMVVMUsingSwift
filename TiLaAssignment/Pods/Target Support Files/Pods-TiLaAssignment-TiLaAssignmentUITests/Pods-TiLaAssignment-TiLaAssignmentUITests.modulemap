@@ -1,0 +1,6 @@
+framework module Pods_TiLaAssignment_TiLaAssignmentUITests {
+  umbrella header "Pods-TiLaAssignment-TiLaAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

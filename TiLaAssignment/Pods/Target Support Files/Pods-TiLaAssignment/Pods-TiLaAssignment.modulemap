@@ -1,0 +1,6 @@
+framework module Pods_TiLaAssignment {
+  umbrella header "Pods-TiLaAssignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
